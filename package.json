@@ -1,0 +1,12 @@
+{
+  "name": "expert-system-plant",
+  "version": "1.0.0",
+  "description": "Plant Expert System with Prolog backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

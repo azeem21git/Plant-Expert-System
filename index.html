@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>🌿 Plant Expert System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🌿 Plant Expert System</h1>
+  <p>Select your plant’s conditions:</p>
+
+  <form id="plantForm">
+    <label>Watering:</label>
+    <select id="watering">
+      <option>1 times/week</option>
+      <option>2 times/week</option>
+      <option>3 times/week</option>
+    </select><br><br>
+
+    <label>Lighting:</label>
+    <select id="lighting">
+      <option>low</option>
+      <option>medium</option>
+      <option>high</option>
+    </select><br><br>
+
+    <label>Toxicity:</label>
+    <select id="toxicity">
+      <option>toxic</option>
+      <option>non toxic</option>
+    </select><br><br>
+
+    <label>Ease of Care:</label>
+    <select id="ease">
+      <option>easy</option>
+      <option>average</option>
+      <option>difficult</option>
+    </select><br><br>
+
+    <button type="submit">Get Recommendation 🌱</button>
+  </form>
+
+  <h2 id="result"></h2>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
